@@ -1,0 +1,108 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>IO SDF</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">SUITESIGNON</feature>
+      <feature required="true">CLASSES</feature>
+      <feature required="false">MULTILANGUAGE</feature>
+      <feature required="true">LOCATIONS</feature>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="true">DEPARTMENTS</feature>
+      <feature required="false">CRM</feature>
+      <feature required="false">EXTREMELIST</feature>
+      <feature required="false">MAILMERGE</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="false">PAYABLES</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">CUSTOMSEGMENTS</feature>
+      <feature required="false">ACCOUNTING</feature>
+      <feature required="true">MULTICURRENCY</feature>
+      <feature required="false">CREATESUITEBUNDLES</feature>
+      <feature required="false">SUBSCRIPTIONBILLING</feature>
+    </features>
+    <objects>
+      <object>custbody_date_reminder</object>
+      <object>customlist882</object>
+      <object>custbody_aprvd_by</object>
+      <object>custbody_advertiser_id</object>
+      <object>custbody_billstatus</object>
+      <object>custbody_memo_for_terms</object>
+      <object>custbody_15889_cust_refund_entity_bank</object>
+      <object>customlist883</object>
+      <object>custbody_createdfrom_expensify</object>
+      <object>custbody_banknumber</object>
+      <object>custbody_hrc_vb_softcopy</object>
+      <object>custbody_zeta_service_period</object>
+      <object>custbody_15529_vendor_entity_bank</object>
+      <object>custbody_cust_priority</object>
+      <object>custbody_zeta_opp_name</object>
+      <object>custbody_je_customer_update</object>
+      <object>customlist_zetarefundtype</object>
+      <object>custbody_supporting_doc</object>
+      <object>custbody_11724_bank_fee</object>
+      <object>custbody42</object>
+      <object>custbody_zeta_approved_by</object>
+      <object>custbody_bankeftnumber</object>
+      <object>custbody_iit_import_jv</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_approval_email_sent</object>
+      <object>customrecord_iit_state</object>
+      <object>custbody_billdate</object>
+      <object>custbody18_2</object>
+      <object>custbody_iit_place_of_service</object>
+      <object>custbody_order_type</object>
+      <object>custbody_swe_rma_header_start_date</object>
+      <object>custbody_swe_rma_header_end_date</object>
+      <object>custbody37</object>
+      <object>custbody_4599_sg_import_permit_num</object>
+      <object>custbody_warranty_</object>
+      <object>custbody39</object>
+      <object>custbody38</object>
+      <object>custbody_contract_name</object>
+      <object>customrecord_cseg_cost_center</object>
+      <object>custbody_celigo_sfnc_salesforce_id</object>
+      <object>custbody_zeta_refundtype</object>
+      <object>customrole1034_2</object>
+      <object>custbody_11187_pref_entity_bank</object>
+      <object>custbody_managed_bundle</object>
+      <object>custbody_zeta_advertiser_placiq</object>
+      <object>custbody_zeta_external_id</object>
+      <object>customrecord_cseg_department.custrecord_cseg_department_n101</object>
+      <object>custbody_delivery_schedule</object>
+      <object>custbody_auto_address</object>
+      <object>custbody_bpc_approver_3</object>
+      <object>custbody_zeta_prior_approvers</object>
+      <object>custbody_bpc_approver_2</object>
+      <object>custbody_15699_exclude_from_ep_process</object>
+      <object>customrecord_cseg_cost_center.custrecord_cseg_cost_center_283</object>
+      <object>custbody_nsts_gaw_superapp_approved</object>
+      <object>custbody_email_reminder</object>
+      <object>customrecord_2663_entity_bank_details</object>
+      <object>custbody_iit_advtds_applied_amt</object>
+      <object>custbody_bpc_approver_1</object>
+      <object>custbody_billreceiveddate</object>
+      <object>custbody_promisedate</object>
+      <object>custbodynatureofservice</object>
+      <object>custbody_reseller</object>
+      <object>custbody_my_import_declaration_num</object>
+      <object>customrole1048_2</object>
+      <object>custbody_zeta_po_number</object>
+      <object>custbody_end_user</object>
+      <object>custbody_10184_customer_entity_bank</object>
+      <object>customlist_operation_type</object>
+      <object>custbody_11724_pay_bank_fees</object>
+      <object>custbody_iit_advance_tds_paid</object>
+      <object>customlist_order_type</object>
+      <object>custbody_15529_emp_entity_bank</object>
+      <object>custbody_distributor</object>
+      <object>custbody_cretd_by</object>
+      <object>custbody_reject_email_sent</object>
+      <object>custbody19</object>
+      <object>customrecord_contracts</object>
+      <object>customrecord_cseg_department</object>
+      <object>custbody_je_memo_update</object>
+    </objects>
+  </dependencies>
+</manifest>

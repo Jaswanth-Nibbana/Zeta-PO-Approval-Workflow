@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_zeta_io_ordertype">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>IO Order Type</name>
+  <customvalues>
+    <customvalue scriptid="val_7714818_3388294_sb1_540">
+      <isinactive>F</isinactive>
+      <value>New</value>
+    </customvalue>
+    <customvalue scriptid="val_7714819_3388294_sb1_294">
+      <isinactive>F</isinactive>
+      <value>Amendment</value>
+    </customvalue>
+  </customvalues>
+</customlist>

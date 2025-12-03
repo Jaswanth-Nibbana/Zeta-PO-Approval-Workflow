@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_zeta_io_backgroundprocessst">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>IO BackgroundProcess Status</name>
+  <customvalues>
+    <customvalue scriptid="val_7715172_3388294_sb1_581">
+      <isinactive>F</isinactive>
+      <value>Not Processed</value>
+    </customvalue>
+    <customvalue scriptid="val_7715173_3388294_sb1_839">
+      <isinactive>F</isinactive>
+      <value>Processing</value>
+    </customvalue>
+    <customvalue scriptid="val_7715174_3388294_sb1_399">
+      <isinactive>F</isinactive>
+      <value>Success</value>
+    </customvalue>
+    <customvalue scriptid="val_7715175_3388294_sb1_572">
+      <isinactive>F</isinactive>
+      <value>Failure</value>
+    </customvalue>
+  </customvalues>
+</customlist>

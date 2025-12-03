@@ -1,0 +1,101 @@
+<suitelet scriptid="customscript_zeta_su_io_iobulkapprovals">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Zeta SU IO IOBulkApprovals</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Nibbana Consulting/Insertion Order/zeta_su_io_bulkapproval.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_io_bulkapprovalaction">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>TEXT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Action</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_zeta_su_io_iobulkapprovals">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <custscript_io_bulkapprovalaction></custscript_io_bulkapprovalaction>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Zeta SU IO IO Bulk Submit</title>
+      <links>
+        <link>
+          <linkcategory>BASICTRANSACTIONSSALES</linkcategory>
+          <linklabel>Bulk Submit for Review</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_zeta_su_iobulkreview">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <custscript_io_bulkapprovalaction>review</custscript_io_bulkapprovalaction>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Zeta SU IO IO Bulk Review</title>
+      <links>
+        <link>
+          <linkcategory>BASICTRANSACTIONSSALES</linkcategory>
+          <linklabel>Bulk Review Process</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_zeta_su_iobulkapprove">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <custscript_io_bulkapprovalaction>approve</custscript_io_bulkapprovalaction>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>Zeta SU IO IO Bulk Approve</title>
+      <links>
+        <link>
+          <linkcategory>BASICTRANSACTIONSSALES</linkcategory>
+          <linklabel>Bulk Final Approval</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

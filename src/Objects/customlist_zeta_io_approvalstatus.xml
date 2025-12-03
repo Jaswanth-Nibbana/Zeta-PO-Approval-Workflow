@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_zeta_io_approvalstatus">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Insertion Order ApprovalStatus</name>
+  <customvalues>
+    <customvalue scriptid="val_7715052_3388294_sb1_550">
+      <isinactive>F</isinactive>
+      <value>Draft</value>
+    </customvalue>
+    <customvalue scriptid="val_7715053_3388294_sb1_683">
+      <isinactive>F</isinactive>
+      <value>Submitted for Review</value>
+    </customvalue>
+    <customvalue scriptid="val_7715054_3388294_sb1_203">
+      <isinactive>F</isinactive>
+      <value>Reviewed - Pending Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_7715055_3388294_sb1_452">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_7715056_3388294_sb1_258">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_zeta_refundtype">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Refund</name>
+  <customvalues>
+    <customvalue scriptid="val_8116615_3388294_sb1_838">
+      <isinactive>F</isinactive>
+      <value>New</value>
+    </customvalue>
+    <customvalue scriptid="val_8116616_3388294_sb1_471">
+      <isinactive>F</isinactive>
+      <value>Credit and Rebill</value>
+    </customvalue>
+  </customvalues>
+</customlist>

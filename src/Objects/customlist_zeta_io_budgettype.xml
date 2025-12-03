@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_zeta_io_budgettype">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>IO Budget Type</name>
+  <customvalues>
+    <customvalue scriptid="val_7714812_3388294_sb1_599">
+      <isinactive>F</isinactive>
+      <value>Fluid</value>
+    </customvalue>
+    <customvalue scriptid="val_7714813_3388294_sb1_771">
+      <isinactive>F</isinactive>
+      <value>Monthly Fluid</value>
+    </customvalue>
+    <customvalue scriptid="val_7714814_3388294_sb1_778">
+      <isinactive>F</isinactive>
+      <value>Monthly Fixed</value>
+    </customvalue>
+  </customvalues>
+</customlist>
